@@ -6,16 +6,21 @@
   </head>
 <body>
   <div class="container">
-    <div class="time">
+    <div class="time__holder">
       <video class="bg-vid" playsinline autoplay muted loop src="./video.mp4"></video>
+      <div class="time">
+        <div class="time__grid">
+          
+        </div>
+      </div>
     </div>
     <div class="info">
-      <div class="tz"></div>
-      <div class="area"></div>
-      <div class="temp"></div>
-      <div class="dt"></div>
-      <div class="sr"></div>
-      <div class="st"></div>
+      <div class="tz"><p class="title">TIMEZONE</p><p id="tz"></p></div>
+      <div class="area"><p class="title">AREA</p><p id="area"></p></div>
+      <div class="temp"><p class="title">TEMPERATURE</p><p id="temp"></p></div>
+      <div class="dt"><p class="title">DATE & TIME</p><p id="dt"></p></div>
+      <div class="sr"><p class="title">SUNRISE</p><p id="sr"></p></div>
+      <div class="st"><p class="title">SUNSET</p><p id="st"></p></div>
     </div>
   </div>
   
