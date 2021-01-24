@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clock app</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+<body>
+  <div class="container">
+    <div class="time__holder">
+      <video class="bg__vid" playsinline autoplay muted loop src="./video.mp4"></video>
+      <div class="time">
+        <div class="time__grid">
+          <div class="time__bar"><h1>12:34</h1></div>
+          <div class="place"></div>
+        </div>
+      </div>
+    </div>
+    <div class="info">
+      <div class="tz"><p class="title">TIMEZONE</p><p id="tz"></p></div>
+      <div class="area"><p class="title">AREA</p><p id="area"></p></div>
+      <div class="temp"><p class="title">TEMPERATURE</p><p id="temp"></p></div>
+      <div class="dt"><p class="title">DATE & TIME</p><p id="dt"></p></div>
+      <div class="sr"><p class="title">SUNRISE</p><p id="sr"></p></div>
+      <div class="st"><p class="title">SUNSET</p><p id="st"></p></div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
